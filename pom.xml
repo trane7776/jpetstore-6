@@ -20,13 +20,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.mybatis</groupId>
-    <artifactId>mybatis-parent</artifactId>
+    <groupId>org.trane7776</groupId>
+    <artifactId>trane7776-parent</artifactId>
     <version>38</version>
     <relativePath />
   </parent>
 
-  <groupId>org.mybatis</groupId>
+  <groupId>org.trane7776</groupId>
   <artifactId>jpetstore</artifactId>
   <version>6.1.1-SNAPSHOT</version>
   <packaging>war</packaging>
@@ -35,37 +35,37 @@
   <url>http://www.mybatis.org</url>
 
   <scm>
-    <url>http://github.com/mybatis/jpetstore-6</url>
-    <connection>scm:git:ssh://github.com/mybatis/jpetstore-6.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/mybatis/jpetstore-6.git</developerConnection>
+    <url>https://github.com/trane7776/jpetstore-6</url>
+    <connection>scm:git:ssh://github.com/trane7776/jpetstore-6.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/trane7776/jpetstore-6.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
   <issueManagement>
     <system>GitHub Issue Management</system>
-    <url>https://github.com/mybatis/jpetstore-6/issues</url>
+    <url>https://github.com/trane7776/jpetstore-6/issues</url>
   </issueManagement>
   <ciManagement>
     <system>GitHub Actions</system>
-    <url>https://github.com/mybatis/jpetstore-6/actions</url>
+    <url>https://github.com/trane7776/jpetstore-6/actions</url>
   </ciManagement>
   <distributionManagement>
     <site>
       <id>gh-pages</id>
       <name>Mybatis GitHub Pages</name>
-      <url>git:ssh://git@github.com/mybatis/jpetstore-6.git?gh-pages#</url>
+      <url>git:ssh://git@github.com/trane7776/jpetstore-6.git?gh-pages#</url>
     </site>
   </distributionManagement>
 
   <dependencies>
     
     <dependency>
-      <groupId>org.mybatis</groupId>
-      <artifactId>mybatis</artifactId>
+      <groupId>org.trane7776</groupId>
+      <artifactId>trane7776</artifactId>
       <version>3.5.13</version>
     </dependency>
     <dependency>
-      <groupId>org.mybatis</groupId>
-      <artifactId>mybatis-spring</artifactId>
+      <groupId>org.trane7776</groupId>
+      <artifactId>trane7776-spring</artifactId>
       <version>2.1.1</version>
     </dependency>
     <dependency>
